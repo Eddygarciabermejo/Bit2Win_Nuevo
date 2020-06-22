@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../fuentes/Gotham-Black.otf');
+  }
+  @font-face {
+    font-family: 'GothamBook';
+    src: url('../fuentes/GothamBook.ttf');
+}
+:root{
+    --border_righ: 20px;
+
+}
+
+i{
+    color: white;
+}
+
+body{
+    background-color:white;
+
+    
+}
+
+
+.big-container{
+    margin-top: -5%;
+}
+
+
+.div-wizard{
+    border-bottom:rgb(93, 56, 194) 1px solid;
+}
+
+.nav-wizard{
+    background-color: white;
+
+}
+
+.section .wizard-card{
+    min-height: inherit;
+}
+
+.title2{
+    font-family: 'GothamBook';
+    color: rgb(93, 56, 194);
+}
+
+
+.borde-form{
+    background-color: blue ;
+    width: 80%;
+    height: 100%;
+    border-style: none !important;
+    border-top-right-radius: var(--border_righ);
+    border-bottom-right-radius: var(--border_righ);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #d8d3d3 ;
+    margin-right: 0px !;
+    padding: 0 0 !important;
+    display: flex;
+   
+}
+
+.form-input{
+    width: inherit;
+    height: auto;
+    border-style: none !important;
+    border-top-right-radius: var(--border_righ);
+    border-bottom-right-radius: var(--border_righ);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #d8d3d3  ;
+    margin-left: 2%;
+  
+}
+
+.form-border_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(93, 56, 194) !important;
+    padding: 3% 1% !important;
+    border-radius: 50% !important;
+    width: 15%;
+}
+
+.label-form{
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 5%;
+    color: #3A1D87;
+    font-family: 'GothamBook';
+}
+
+.inputs-end{
+    display: flex;
+}
+.label-margin{
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.send-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+}
+
+.button{
+    background-color: rgb(93, 56, 194);
+    color: white;
+    border-radius: var(--border_righ);
+    height: 40px;
+    font-family: 'GothamBook';
+   
+}
+
+.img-banner{
+    height: 160px;
+    width: 100%;
+    bottom: 0;
+}
+
+.img-banner_img{
+    height: 160px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .container-inputs{
+        height: auto;
+    }
+
+
+.button{
+    width: auto;
+    font-family: 'GothamBook';
+    
+   
+}
+
+.borde-form{
+    width: 100%;
+
+
+}
+
+
+
+
+
+}

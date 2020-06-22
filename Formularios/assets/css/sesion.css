@@ -1,0 +1,61 @@
+.title3{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.view-size{
+    height: 70vh;
+    
+    
+
+}
+.form-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ilustra{
+    position: absolute;
+    z-index: 1;
+    height: 50%;
+    margin-bottom: 0px;
+    top: 50%;
+    margin-left:10%;
+}
+.banner-size{
+
+    max-height: 50%;
+
+    
+}
+
+.banner-size_img{
+    width: 100%;
+}
+
+.button-sesion{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+@media only screen and (max-width: 600px){
+    .ilustra{
+        margin-left:1%;
+        width: 30%;
+        height: 30%;
+        top: 60%;
+    }
+
+    .container-input{
+
+        width: 90%;
+    }
+
+   
+        
+    
+}

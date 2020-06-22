@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Registro</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png" />
+	<link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/sesion.css">
+	<link rel="stylesheet" href="assets/css/menu.css">
+	
+</head>
+
+<body>
+	<nav  style="background-image: url('assets/imagenes/nav.png'); background-repeat: no-repeat;  background-size: cover;" class="navbar navbar-default" role="navigation">
+        <!-- El logotipo y el icono que despliega el menú se agrupan
+             para mostrarlos mejor en los dispositivos móviles -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                  data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      
+        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+             otro elemento que se pueda ocultar al minimizar la barra -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav menu">
+			<li class="menu-li" ><a href="../index.html">INICIO</a></li>
+			<li class="menu-li" ><a href="#">SOBRE NOSOTROS</a></li>
+			<li class="menu-li" ><a href="../politicas/funciona.html">COMO FUNCIONA</a></li>
+			<li class="menu-li" ><a href="#">CONTACTO</a></li>
+			<li class="menu-li" ><a href="formularios_registro.htm">REGISTRÁTE</a></li>
+			<li class=" nav-item li_button" ><a class="nav-link button_li" href="iniciar_sesion.html">INGRESAR</a></li>
+          </ul>
+        </div>
+      </nav>
+	<div class="big-container">
+
+	    <!--   Big container   -->
+	    <div class="container container-inputs">
+	        <div class="row">
+		        <div class="col-sm-10 col-sm-offset-1 ">
+		            <!--      Wizard container        -->
+		            <div class="wizard-container">
+		                <div class="card wizard-card" data-color="red" id="wizard">
+		                    <form action="" method="">
+		                	<!--You can switch   -->
+		                    	<div class="wizard-header">
+		                        	<h3 class="wizard-title title2">
+		                        		REGISTRATE AHORA
+		                        	</h3>
+								</div>
+								<!--Navegator Wizard-->
+								<div class="wizard-navigation div-wizard">
+									<ul class="nav-wizard">
+			                            <li><a href="#details" data-toggle="tab">Independiente</a></li>
+			                            <li><a href="#captain" data-toggle="tab">Referido</a></li>
+			                            <li><a href="#description" data-toggle="tab">Personalizado</a></li>
+			                        </ul>
+								</div>
+
+		                        <div class="  tab-content">
+		                            <div class=" tab-pane" id="details">
+									
+
+										<!--Columns Inputs-->
+		                            	<div class="row">
+											<!--Inputus columns 1, number 3 inputs-->	
+		                                	<div class="col-sm-6 ">
+												<div class="col-sm-12">
+													<label class="label-form">Escoge tu usuario</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">person</i>
+														</div>
+															<input name="" type="text" class="form-input">
+													</div>
+
+													<label class="label-form label-margin">Tu usuario</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">perm_identity</i>
+														</div>
+															<input name="" type="text" class="form-input">
+													</div>
+
+
+													<label class="label-form label-margin">Crea tu contraseña</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">lock_outline</i>
+														</div>
+															<input name="" type="password" class="form-input">
+													</div>
+												</div>
+											</div>
+												<!--Inputus columns 2, number 3 inputs-->	
+											<div class="col-sm-6 ">
+												<div class="col-sm-12">
+													<label class="label-form">Selecciona tu plan</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">control_point</i>
+														</div>
+															<select  class="form-input"> 
+																<option value="1"> 1</option>
+																<option value="2"> 2</option>
+																<option value="3"> 3</option>
+																<option value="4"> 4</option>
+
+															</select>
+													</div>
+
+													<label class="label-form label-margin">Correo eléctronico</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">email</i>
+														</div>
+															<input name="name" type="email" class="form-input">
+													</div>
+
+
+													<label class="label-form label-margin">Confirmar contraseña</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">lock_outline</i>
+														</div>
+															<input name="name" type="password" class="form-input">
+													</div>
+												</div>
+		                                	</div>
+										</div>
+										<div class="col-sm-12 send-button">
+											<input class="col-sm-3 button" type="submit" name="" id="" value="Registrate ahora">
+										</div>
+		                            </div>
+		                            <div class="tab-pane" id="captain">
+		                               <!--Columns Inputs-->
+		                            	<div class="row">
+											<!--Inputus columns 1, number 3 inputs-->	
+												<div class="col-sm-6 ">
+													<div class="col-sm-12">
+														<label class="label-form">Padrino</label>
+														<div class="input-group borde-form">
+															<div class="input-group-addon form-border_div">
+																<i class="material-icons">wifi</i>
+															</div>
+																<input name="" type="text" class="form-input">
+														</div>
+	
+														<label class="label-form label-margin">Tu usuario</label>
+														<div class="input-group borde-form">
+															<div class="input-group-addon form-border_div">
+																<i class="material-icons">perm_identity</i>
+															</div>
+																<input name="" type="text" class="form-input">
+														</div>
+	
+	
+														<label class="label-form label-margin">Crea tu contraseña</label>
+														<div class="input-group borde-form">
+															<div class="input-group-addon form-border_div">
+																<i class="material-icons">lock_outline</i>
+															</div>
+																<input name="" type="password" class="form-input">
+														</div>
+													</div>
+												</div>
+													<!--Inputus columns 2, number 3 inputs-->	
+												<div class="col-sm-6 ">
+													<div class="col-sm-12">
+														<label class="label-form">Escoge tu usuario</label>
+														<div class="input-group borde-form">
+															<div class="input-group-addon form-border_div">
+																<i class="material-icons">person</i>
+															</div>
+																<input name="name" type="email" class="form-input">
+														</div>
+	
+														<label class="label-form label-margin">Correo eléctronico</label>
+														<div class="input-group borde-form">
+															<div class="input-group-addon form-border_div">
+																<i class="material-icons">email</i>
+															</div>
+																<input name="name" type="email" class="form-input">
+														</div>
+	
+	
+														<label class="label-form label-margin">Confirmar contraseña</label>
+														<div class="input-group borde-form">
+															<div class="input-group-addon form-border_div">
+																<i class="material-icons">lock_outline</i>
+															</div>
+																<input name="name" type="password" class="form-input">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12 send-button">
+												<input class="col-sm-3 button" type="submit" name="" id="" value="Registrate ahora">
+											</div>
+		                            </div>
+		                            <div class="tab-pane" id="description">
+		                             <!--Columns Inputs-->
+									 <div class="row">
+										<!--Inputus columns 1, number 3 inputs-->	
+											<div class="col-sm-6 ">
+												<div class="col-sm-12">
+													<label class="label-form ">Padrino</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">wifi</i>
+														</div>
+															<input name="" type="text" class="form-input">
+													</div>
+
+													<label class="label-form label-margin">Tu usuario</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">perm_identity</i>
+														</div>
+															<input name="" type="text" class="form-input">
+													</div>
+
+
+													<label class="label-form label-margin">Crea tu contraseña</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">lock_outline</i>
+														</div>
+															<input name="" type="password" class="form-input">
+													</div>
+												</div>
+											</div>
+												<!--Inputus columns 2, number 3 inputs-->	
+											<div class="col-sm-6 ">
+												<div class="col-sm-12">
+													<label class="label-form ">Escoge tu usuario</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">email</i>
+														</div>
+															<input name="name" type="email" class="form-input">
+													</div>
+
+													<label class="label-form label-margin">Correo eléctronico</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">email</i>
+														</div>
+															<input name="name" type="email" class="form-input">
+													</div>
+
+
+													<label class="label-form label-margin">Confirmar contraseña</label>
+													<div class="input-group borde-form">
+														<div class="input-group-addon form-border_div">
+															<i class="material-icons">lock_outline</i>
+														</div>
+															<input name="name" type="password" class="form-input">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 send-button">
+											<input class="col-sm-3 button" type="submit" name="" id="" value="Registrate ahora">
+										</div>
+								</div>
+		                    </form>
+		                </div>
+		            </div> <!-- wizard container -->
+		        </div>
+	    	</div> <!-- row -->
+		</div> <!-- End  big container -->
+	
+	</div>
+	<div class="img-banner">
+		<img class="img-banner_img" src="assets/imagenes/9.png" alt="">
+	</div>
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Wizard -->
+	<script src="assets/js/material-bootstrap-wizard.js"></script>
+
+	<!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+	<script src="assets/js/jquery.validate.min.js"></script>
+</html>
