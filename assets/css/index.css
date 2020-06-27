@@ -228,10 +228,10 @@ input:focus, input.form-control:focus {
 
 .menbr{
 
-    height: auto;
     background-image: url("../imagenes/4.png");
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
+  
     
     
 }
@@ -239,55 +239,55 @@ input:focus, input.form-control:focus {
 
 .div-membre-texto{
     display: flex;
-    justify-content: center;
-    padding-bottom: 20%;
-    margin-left: 2%;
-    margin-right: 2%;
-    
-    
-   
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%;
 }
 
 
 .column{
-    background-image: url('../imagenes/1men.png');
+
+    background-image: url("../imagenes/1men.png");
     background-repeat: no-repeat;
-    margin-top: 30%;
-    padding-bottom: 30%;
-    width: 100%;
+    background-size: 100% 100%;
 }
 
 .column1{
-    background-image: url('../imagenes/2men.png');
+
+    background-image: url("../imagenes/2men.png");
     background-repeat: no-repeat;
-    margin-top: 30%;
-    padding-bottom: 30%;
-    width: 100%;
+    background-size: 100% 100%;
 }
 
 .column2{
-    background-image: url('../imagenes/3men.png');
+
+    background-image: url("../imagenes/3men.png");
     background-repeat: no-repeat;
-    margin-top: 30%;
-    padding-bottom: 30%;
-    width: 100%;
+    background-size: 100% 100%;
 }
+
 
 
 .titulo{
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    padding: 10%;
+    padding-left: 70px;
+    padding-right: 70px;
    
-    
 }
 
 .div-precio{
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 20%;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 18%;
+   
 }
 
 
@@ -299,42 +299,37 @@ input:focus, input.form-control:focus {
     color: white;
 }
 
-/*Columna 1*/
+
 .div-opcion{
 
     display: flex;
     justify-content: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 93%;
     border-bottom: #5f2dd8 solid;
     
 }
 
 .div-p-recibi{
-    padding-right: 5%;
     color: white;
-    padding-bottom: 3%;
     margin-bottom: 0px;
     border-right: #5f2dd8 solid ;
+    padding-right: 5%;
     
 }
 
 
 .div-p-precio{
     
-    margin-left: 10%;
-    padding-right: 10%;
+    margin-left: 5%;
+    padding-right: 5%;
     color: white;
-    padding-bottom: 2%;
     margin-bottom: 0px;
     border-right: #5f2dd8 solid ;
 }
 
 .div-p-bits{
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: white;
     margin-bottom: 2%;
 
@@ -344,17 +339,19 @@ input:focus, input.form-control:focus {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .p-pnas{
     color: white;
     margin-right: 2%;
+    margin-bottom: 10%;
 }
 
 .p-usd{
     color: white;
     margin-left: 2%;
+    margin-bottom: 10%;
     
 }
 
@@ -363,10 +360,9 @@ input:focus, input.form-control:focus {
 
     display: flex;
     justify-content: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 93%;
+    width: 100%;
     border-bottom: #681ac8 solid;
+    margin-bottom: 10%;
     
 }
 
@@ -374,9 +370,7 @@ input:focus, input.form-control:focus {
 
     display: flex;
     justify-content: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 93%;
+    width: 100%;
     
     
 }
@@ -384,114 +378,141 @@ input:focus, input.form-control:focus {
 .p-nievel-infe{
 
     color: white;
-    padding-right: 5%;
+    margin-left: -5px;
     padding-top: 3%;
     margin-bottom: 0px;
     padding-bottom: 3%;
+    width: 100%;
     border-right: #681ac8 solid ;
 }
 
+.p-nievel-infe1{
 
-.p1-nivel-infe{
-
-    color: whitesmoke;
+    color: white;
+    margin-left: -5px;
     padding-top: 3%;
     margin-bottom: 0px;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-bottom: 3%;
+    width: 100%;
+    border-right: #4e4ff6 solid ;
+}
+
+.p-nievel-infe2{
+
+    color: white;
+    margin-left: -5px;
+    padding-top: 3%;
+    margin-bottom: 0px;
+    padding-bottom: 3%;
+    width: 100%;
+    border-right: #6e0ebc solid ;
+}
+
+.nivel-inferior{
+
+    padding-bottom: 55%;
+}
+
+
+.nivel-inferior-opcion{
+
+    display: flex;
+    justify-content: center;
+    border-bottom: #681ac8 solid;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    
     
 }
-.p2-nivel-infe{
 
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;
+.nivel-inferior-opcion1{
+
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(78, 79, 246) solid;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    
     
 }
 
-.p3-nivel-infe{
 
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;
+.nivel-inferior-opcion1 p{
+
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 2%;
+     
+ }
+
+.nivel-inferior-opcion p{
+
+   color: white;
+   margin-right: 5%;
+   margin-bottom: 2%;
+
     
 }
-
-.p4-nivel-infe{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;  
+.div-inferior-interno{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    
 }
-
-.p5-nivel-infe{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;  
-}
-
 
 .total{
 
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    
 }
 
 .p-total{
 
     color: black;
     font-weight: 700;
+   
 }
 
 .precio-total{
     color: black;
+    
+
 }
 
-/* Fin columna 1*/
 
-/* Columna 2*/
 
 .div-opcion1{
 
     display: flex;
     justify-content: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 93%;
+    width: 100%;
     border-bottom: #4e4ff6 solid;
     
 }
 
 .div-p-recibi1{
-    padding-right: 5%;
     color: white;
-    padding-bottom: 3%;
     margin-bottom: 0px;
     border-right: #4e4ff6 solid ;
+    padding-right: 5%;
     
 }
 
 
 .div-p-precio1{
     
-    margin-left: 10%;
-    padding-right: 10%;
+    margin-left: 5%;
+    padding-right: 5%;
     color: white;
-    padding-bottom: 2%;
     margin-bottom: 0px;
     border-right: #4e4ff6 solid ;
 }
 
 .div-p-bits1{
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: white;
     margin-bottom: 2%;
 
@@ -501,11 +522,13 @@ input:focus, input.form-control:focus {
 .p-pnas1{
     color: white;
     margin-right: 2%;
+    margin-bottom: 10%;
 }
 
 .p-usd1{
     color: white;
     margin-left: 2%;
+    margin-bottom: 10%;
     
 }
 
@@ -514,73 +537,21 @@ input:focus, input.form-control:focus {
 
     display: flex;
     justify-content: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 93%;
+    width: 100%;
     border-bottom: #4e4ff6 solid;
     
 }
 
-.p-nievel-infe1{
-
-    color: white;
-    padding-right: 5%;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-bottom: 3%;
-    border-right: #4e4ff6 solid ;
-}
 
 
-.p1-nivel-infe1{
 
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-left: 4%;
-    padding-right: 4%;
-    
-}
-.p2-nivel-infe1{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;
-    
-}
-
-.p3-nivel-infe1{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;
-    
-}
-
-.p4-nivel-infe1{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;  
-}
-
-.p5-nivel-infe1{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;  
-}
 
 
 .total1{
 
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    
 }
 
 .p-total1{
@@ -593,9 +564,6 @@ input:focus, input.form-control:focus {
     color: black;
 }
 
-/* Fin de columna 2 */
-
-/*Columna 3*/
 
 .div-opcion2{
 
@@ -603,7 +571,7 @@ input:focus, input.form-control:focus {
     justify-content: center;
     margin-left: 1%;
     margin-right: 1%;
-    width: 93%;
+    width: 100%;
     border-bottom: #6e0ebc solid;
     
 }
@@ -611,27 +579,26 @@ input:focus, input.form-control:focus {
 .div-p-recibi2{
     padding-right: 5%;
     color: white;
-    padding-bottom: 3%;
     margin-bottom: 0px;
     border-right: #6e0ebc solid ;
+    padding-right: 5%;
     
 }
 
 
 .div-p-precio2{
     
-    margin-left: 10%;
-    padding-right: 10%;
+    margin-left: 5%;
+    padding-right: 5%;
     color: white;
-    padding-bottom: 2%;
     margin-bottom: 0px;
     border-right: #6e0ebc solid ;
 }
 
 .div-p-bits2{
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     color: white;
     margin-bottom: 2%;
 
@@ -641,12 +608,14 @@ input:focus, input.form-control:focus {
 .p-pnas2{
     color: white;
     margin-right: 2%;
+    margin-bottom: 10%;
+
 }
 
 .p-usd2{
     color: white;
     margin-left: 2%;
-    
+    margin-bottom: 10%;
 }
 
 
@@ -654,73 +623,18 @@ input:focus, input.form-control:focus {
 
     display: flex;
     justify-content: center;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 93%;
+    width: 100%;
     border-bottom: #6e0ebc  solid;
     
 }
 
-.p-nievel-infe2{
-
-    color: white;
-    padding-right: 5%;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-bottom: 3%;
-    border-right: #6e0ebc  solid ;
-}
-
-
-.p1-nivel-infe2{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-left: 4%;
-    padding-right: 4%;
-    
-}
-.p2-nivel-infe2{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;
-    
-}
-
-.p3-nivel-infe2{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;
-    
-}
-
-.p4-nivel-infe2{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;  
-}
-
-.p5-nivel-infe2{
-
-    color: whitesmoke;
-    padding-top: 3%;
-    margin-bottom: 0px;
-    padding-right: 4%;  
-}
 
 
 .total2{
 
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    
 }
 
 .p-total2{
@@ -733,7 +647,7 @@ input:focus, input.form-control:focus {
     color: black;
 }
 
-/* Fin de columna */
+
 h6{
     color: black;
     font-family: 'Gotham-Black';

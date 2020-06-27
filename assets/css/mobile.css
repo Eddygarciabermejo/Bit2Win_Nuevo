@@ -71,16 +71,17 @@
     .div-membre-texto{
 
         display: block;
-
+        width: 70%;
+        margin-left: 10%;
     }
 
     .titulo{
         padding-top: 10%;
-        width: 92%;
+      
     }
 
     .div-precio{
-        width: 92%;
+       
 
     }
 
@@ -92,182 +93,39 @@
 
    
     .div-opcion{
-        width: 92%;
+        width: 98%;
     }
-
+    .nivel-inferior-opcion{
+        width: 98%;
+    }
     .div-opcion-infe{
 
-        width: 92%;
+        width: 98%;
     }
 
-    .div-opcion1{
-        width: 92%;
-    }
 
-    .div-opcion-infe1{
-
-        width: 92%;
-    }
 
     .div-opcion2{
-        width:92%;
+
+        width: 98%;
+        
     }
 
     .div-opcion-infe2{
 
-        width: 92%;
+        width: 98%;
     }
 
-    .total1{
+  
 
-        width: 92%;
-
+    .img-columns{
+        display: block;
+        padding-top: 0px;
+        margin-bottom: 10%;
     }
 
 
   
 }
 
-
-@media only screen and (min-width:361px) and (max-device-width:375px)
-{
-    .titulo{
-        padding-top: 10%;
-        width: 88%;
-    }
-
-    .div-precio{
-        width: 88%;
-
-    }
-
-    .div-precio-h2{
-
-        width: 15%;
-        margin-bottom: 15%;
-    }
-
-    .div-h6-titulo{
-        width: 88%;
-    }
-    .div-opcion{
-        width: 88%;
-    }
-
-    .div-opcion-infe{
-
-        width: 88%;
-    }
-
-    .div-opcion1{
-        width: 88%;
-    }
-
-    .div-opcion-infe1{
-
-        width: 88%;
-    }
-
-    .div-opcion2{
-        width: 88%;
-    }
-
-    .div-opcion-infe2{
-
-        width: 88%;
-    }
-
-    .total{
-
-        width: 88%;
-
-    }
-    .total1{
-
-        width: 88%;
-
-    }
-
-    .total2{
-
-        width: 88%;
-
-    }
-}
-
-}
-
-@media only screen and (min-width:200px) and (max-device-width:360px)
-{
-    
-}
-
-
-@media only screen and (min-width:376px) and (max-device-width:411px)
-{
-    .titulo{
-        padding-top: 10%;
-        width: 80%;
-    }
-
-    .div-precio{
-        margin-top: 15%;
-        width: 80%;
-
-    }
-
-    .div-precio-h2{
-
-        width: 15%;
-        margin-bottom: 15%;
-    }
-
-    .div-h6-titulo{
-        width: 80%;
-    }
-    .div-opcion{
-        width: 80%;
-    }
-
-    .div-opcion-infe{
-
-        width: 80%;
-    }
-
-    .div-opcion1{
-        width: 80%;
-    }
-
-    .div-opcion-infe1{
-
-        width: 80%;
-    }
-
-    .div-opcion2{
-        width: 80%;
-    }
-
-    .div-opcion-infe2{
-
-        width: 80%;
-    }
-
-    .total{
-
-        width: 80%;
-
-    }
-
-    .total1{
-
-        width: 80%;
-
-    }
-
-    .total2{
-
-        width: 80%;
-
-    }
-}
 
