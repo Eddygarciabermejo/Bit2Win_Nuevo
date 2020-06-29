@@ -305,32 +305,26 @@ input:focus, input.form-control:focus {
     display: flex;
     justify-content: center;
     border-bottom: #5f2dd8 solid;
-    margin-top: 5%;
-    
+    margin-top: 2%;
+    align-items: center;
 }
 
 .div-p-recibi{
     color: white;
     margin-bottom: 0px;
-    border-right: #5f2dd8 solid ;
-    padding-right: 5%;
-    
+    font-size: 15px;
+    text-align: center;
 }
 
 
 .div-p-precio{
-    
-    margin-left: 5%;
-    padding-right: 5%;
     color: white;
     margin-bottom: 0px;
-    border-right: #5f2dd8 solid ;
+    text-align: center;
+   
 }
 
 .div-p-bits{
-
-    margin-left: 5%;
-    margin-right: 5%;
     color: white;
     margin-bottom: 2%;
 
@@ -346,13 +340,17 @@ input:focus, input.form-control:focus {
 .p-pnas{
     color: white;
     margin-right: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    height: 25%;
 }
 
 .p-usd{
     color: white;
     margin-left: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    height: 25%;
     
 }
 
@@ -419,8 +417,8 @@ input:focus, input.form-control:focus {
     display: flex;
     justify-content: center;
     border-bottom: #681ac8 solid;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    height: 40px;
+    align-items: center;
     
     
 }
@@ -430,9 +428,21 @@ input:focus, input.form-control:focus {
     display: flex;
     justify-content: center;
     border-bottom: rgb(78, 79, 246) solid;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 0px;
     
+    
+}
+
+.nivel-inferior-opcion2{
+
+    display: flex;
+    justify-content: center;
+    border-bottom: #6e0ebc solid;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 0px;
     
 }
 
@@ -453,12 +463,39 @@ input:focus, input.form-control:focus {
 
     
 }
+
+.nivel-inferior-opcion2 p{
+
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 2%;
+ 
+     
+ }
 .div-inferior-interno{
     display: flex;
     justify-content: space-between;
     padding-right: 10%;
+    border-left: #681ac8 solid;
     
 }
+
+.div-inferior-interno1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    border-left: #4e4ff6 solid;
+    
+}
+
+.div-inferior-interno2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    border-left: #6e0ebc solid;
+    
+}
+
 
 .total{
 
@@ -488,32 +525,28 @@ input:focus, input.form-control:focus {
     justify-content: center;
     width: 100%;
     border-bottom: #4e4ff6 solid;
-    margin-top: 5%;
+    margin-top: 2%;
+    align-items: center;
     
 }
 
 .div-p-recibi1{
     color: white;
     margin-bottom: 0px;
-    border-right: #4e4ff6 solid ;
-    padding-right: 5%;
-    
+    font-size: 15px;
+    text-align: center;
 }
 
 
 .div-p-precio1{
-    
-    margin-left: 5%;
-    padding-right: 5%;
+
     color: white;
     margin-bottom: 0px;
-    border-right: #4e4ff6 solid ;
+    text-align: center;
 }
 
 .div-p-bits1{
 
-    margin-left: 5%;
-    margin-right: 5%;
     color: white;
     margin-bottom: 2%;
 
@@ -523,13 +556,17 @@ input:focus, input.form-control:focus {
 .p-pnas1{
     color: white;
     margin-right: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    height: 25%;
 }
 
 .p-usd1{
     color: white;
     margin-left: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    height: 25%;
     
 }
 
@@ -574,33 +611,28 @@ input:focus, input.form-control:focus {
     margin-right: 1%;
     width: 100%;
     border-bottom: #6e0ebc solid;
-    margin-top: 5%;
+    margin-top: 2%;
+    align-items: center;
     
 }
 
 .div-p-recibi2{
-    padding-right: 5%;
     color: white;
     margin-bottom: 0px;
-    border-right: #6e0ebc solid ;
-    padding-right: 5%;
+    font-size: 15px;
+    text-align: center;
     
 }
 
 
 .div-p-precio2{
-    
-    margin-left: 5%;
-    padding-right: 5%;
     color: white;
     margin-bottom: 0px;
-    border-right: #6e0ebc solid ;
+    text-align: center;
+
 }
 
 .div-p-bits2{
-
-    margin-left: 5%;
-    margin-right: 5%;
     color: white;
     margin-bottom: 2%;
 
@@ -610,14 +642,18 @@ input:focus, input.form-control:focus {
 .p-pnas2{
     color: white;
     margin-right: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    height: 25%;
 
 }
 
 .p-usd2{
     color: white;
     margin-left: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    height: 25%;
 }
 
 
@@ -712,4 +748,40 @@ h6{
 .p-membre{
 
     margin-bottom: 10%;
+}
+
+.bonor{
+    width: 40%;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+  
+}
+
+.border-ver{
+    
+    border-right: #5f2dd8 solid;
+}
+
+.border-ver1{
+    
+    border-right: #4e4ff6 solid;
+}
+.border-ver2{
+    
+    border-right: #6e0ebc solid;
+}
+
+.img-pna{
+    width: 20px;
+}
+
+.incon3{
+
+    margin-left: 40px;
+}
+
+.img-carita{
+
+    width: 70px;
 }
