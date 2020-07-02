@@ -1,0 +1,149 @@
+@media (max-width: 700px) {
+    
+    body{
+        width: 100% !important;
+    }
+
+    .hero{
+        width: 100% !important;
+    }
+    .nav-mobile{
+        width: 100% !important;
+    }
+    
+    .about{
+        display: block;
+        width: 90%;
+    }
+    .about-img{
+        margin-left: 0px;
+    }
+
+    .img-about{
+        width: 100%;
+    }
+
+    .influen{
+        display: block;
+        margin: 0px;
+    }
+    .influen-div{
+        margin: 0px;
+        width: 100%;
+    }
+    .influen-div1{
+        margin: 0px;
+        width: 100%;
+    }
+    h2{
+        width: 80%;
+        font-size: 30px;
+        align-items: center;
+    }
+    .div-p{
+        width: 90%;
+        padding-left: 2%;
+    }
+    .img-red{
+        width: 100%;
+    }
+    .footer{
+        display: block;
+    }
+    .info{
+        margin: 0px;
+        text-align: center;
+    }
+    .why{
+        margin: 0px;
+        text-align: center;
+    }
+    .div-email{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .menbr{
+
+        background-image: none;
+        padding-left: 5%;
+    }
+    .div-membre-texto{
+
+        display: block;
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .titulo{
+        padding-top: 10%;
+      
+    }
+
+    .div-precio{
+       
+        margin-top: 100px;
+    }
+
+
+
+    .div-precio-h2{
+
+        width: 15%;
+        margin-bottom: 15%;
+    }
+
+   
+    .div-opcion{
+        width: 98%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+    .nivel-inferior-opcion{
+        width: 98%;
+        height: auto;
+    }
+    .div-opcion-infe{
+
+        width: 98%;
+    }
+
+
+
+    .div-opcion2{
+
+        width: 98%;
+        height: auto;
+        
+    }
+
+    .div-opcion-infe2{
+
+        width: 98%;
+        height: auto;
+    }
+
+  
+
+    .img-columns{
+        display: block;
+        padding-top: 0px;
+        margin-bottom: 10%;
+    }
+    .div-opcion1{
+
+        height: auto;
+    }
+
+    .nivel-inferior-opcion1{
+        height: auto;
+    }
+
+    .nivel-inferior-opcion2{
+        height: auto;
+    }
+
+  
+}
+
+
