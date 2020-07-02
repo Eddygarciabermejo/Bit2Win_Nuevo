@@ -785,3 +785,7 @@ h6{
 
     width: 70px;
 }
+
+p{
+    height: auto;
+}

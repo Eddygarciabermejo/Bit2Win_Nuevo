@@ -82,8 +82,10 @@
 
     .div-precio{
        
-
+        margin-top: 100px;
     }
+
+
 
     .div-precio-h2{
 
@@ -94,9 +96,11 @@
    
     .div-opcion{
         width: 98%;
+        height: auto;
     }
     .nivel-inferior-opcion{
         width: 98%;
+        height: auto;
     }
     .div-opcion-infe{
 
@@ -108,12 +112,14 @@
     .div-opcion2{
 
         width: 98%;
+        height: auto;
         
     }
 
     .div-opcion-infe2{
 
         width: 98%;
+        height: auto;
     }
 
   
@@ -123,7 +129,18 @@
         padding-top: 0px;
         margin-bottom: 10%;
     }
+    .div-opcion1{
 
+        height: auto;
+    }
+
+    .nivel-inferior-opcion1{
+        height: auto;
+    }
+
+    .nivel-inferior-opcion2{
+        height: auto;
+    }
 
   
 }
