@@ -100,6 +100,10 @@ td, th
     color: #5E2A95;
   
 }
+
+td{
+    text-align: center;
+}
 .td-top{
     height: 50px;
 
@@ -107,6 +111,13 @@ td, th
 .div-table{
     display: flex;
     margin-left: 30%;
+}
+
+.div-table1{
+    display: flex;
+    margin-left: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .div-table-int{
@@ -118,6 +129,14 @@ td, th
 .div-table-int1{
     border-bottom: 1px solid #5E2A95;
     height: 50px;
+
+}
+
+.div-table-int2{
+    border-bottom: 1px solid #5E2A95;
+    height: 130px;
+
+   
 
 }
 
@@ -243,7 +262,6 @@ ul{
 
     .cuadro{
         
-        padding-left: 10%;
         padding-right: 0%;
         width: 100%;
         
@@ -299,6 +317,10 @@ ul{
 
     .header9 .nav-tabs .nav-item:nth-child(2) .nav-link:after{
 
+        display: none;
+    }
+
+    .div-table1{
         display: none;
     }
 }
