@@ -20,7 +20,7 @@ p{
     font-size: 15px !important;
     content: none;
     font-weight: 400 !important;
-    text-transform: lowercase !important;
+    text-transform: none !important;
 }
 
 .space{
@@ -53,6 +53,7 @@ p{
 .op-menu{
 
     width: 70%;
+    
 }
 
 .down-menu{
@@ -111,6 +112,11 @@ td{
 .div-table{
     display: flex;
     margin-left: 30%;
+}
+
+.div-tablefun{
+    display: flex;
+    
 }
 
 .div-table1{
